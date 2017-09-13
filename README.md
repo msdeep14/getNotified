@@ -2,7 +2,7 @@
 
 a python script that sends SMS to mobile when price of product on Amazon lowers down to expected price
 
-# Installation
+## Installation
   1. clone the repo : git clone https://github.com/msdeep14/getNotified.git
   2. edit mobile number, app_key, app_secret, amazon URL in getNotified.py
   3. execute in terminal : python getNotified.py
