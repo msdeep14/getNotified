@@ -57,7 +57,7 @@ def AmazonParser(url):
 
 # send SMS
 def sendSMS(data):
-    number = '+917769942097'
+    number = 'your_mobile_number'
     app_key = '0ef3aaef-e2fc-42ac-9970-97764bb15e0f'
     app_secret = 'NEIOWQYKJE6dmU4tNfos/Q=='
     message = "current price of "+data['NAME']+" is Rs. "+ data['SALE_PRICE']
