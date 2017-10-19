@@ -57,9 +57,9 @@ def AmazonParser(url):
 
 # send SMS
 def sendSMS(data):
-    number = '+917769942097'
-    app_key = '0ef3aaef-e2fc-42ac-9970-97764bb15e0f'
-    app_secret = 'NEIOWQYKJE6dmU4tNfos/Q=='
+    number = 'your_mobile_number'
+    app_key = 'your_app_key'
+    app_secret = 'your_secret_key'
     message = "current price of "+data['NAME']+" is Rs. "+ data['SALE_PRICE']
     client = SinchSMS(app_key, app_secret)
     print("Sending '%s' to %s" % (message, number))
